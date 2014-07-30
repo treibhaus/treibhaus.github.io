@@ -15,4 +15,3 @@
 [X Architekten](http://www.xarchitekten.at/) / 
 [TELEINTERNETCAFE](http://www.teleinternetcafe.de/) / 
 [bueroKleinekort architecture | urbanism | research](http://www.buerokleinekort.de/)
-[Test](http://foo.de)

@@ -1,0 +1,11 @@
+---
+layout: main
+---
+
+<h1>Projects</h1>
+
+<ul>
+{% for project in site.projects %}
+  <li><a href="{{ project.url }}"><img src="{{ project.thumbnail }}">{{ project.name }}</a></li>
+{% endfor %}
+</ul>

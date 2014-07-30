@@ -8,22 +8,23 @@
   <meta name="description" content="TH Berlin and Hamburg. Landscape, Landscape, Landscape.">
   <meta name="keywords" content="TH, Treibhaus, Berlin, Hamburg, etc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <link rel="stylesheet" href="asset/css/normalize.css" type="text/css">
-  <link rel="stylesheet" href="asset/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/asset/css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="/asset/css/main.css" type="text/css">
   <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
   <!-- script src="//cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.53/responsiveslides.min.js"></script -->
    
   <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="asset/icon/favicon.ico">
-  <link rel="apple-touch-icon" sizes="144x144" href="asset/icon/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="asset/icon/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="asset/icon/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" href="asset/icon/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/asset/icon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="144x144" href="/asset/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/asset/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/asset/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" href="/asset/icon/apple-touch-icon.png">
 </head>
 <body>
 
-  <div id="main">
-    <p><img src="asset/image/TH9.svg" width="10%"></p>
+  <div id="main" class={{ page.className }}>
+    <a href="/"><img src="/asset/image/TH9.svg" width="10%"></a>
+    {% include nav.html %}
     {{ content }}
   </div>
 
@@ -59,7 +60,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', '{{page.google_analytics_account }}', 'auto');
+      ga('create', '{{ page.google_analytics_account }}', 'auto');
       ga('send', 'pageview');
 
   </script>

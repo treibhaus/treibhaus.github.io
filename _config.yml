@@ -3,7 +3,8 @@ collections:
     output: true
     permalink: /projects/:path/
   competitions:
-    output: false
+    output: true
+    permalink: /competitions/:path/
   cooperations:
     output: false
 
@@ -11,5 +12,8 @@ defaults:
   -
     scope:
       path: ""
+      type: "post"
     values:
       google_analytics_account: "UA-XXXX-Y"
+
+permalink: "/blog/:categories/:year/:month/:day/:title/"

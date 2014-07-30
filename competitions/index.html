@@ -1,0 +1,12 @@
+---
+layout: main
+---
+
+<h1>Competitions</h1>
+
+<ul>
+{% assign sorted_competitions = (site.competitions | sort: 'year') %}
+{% for competition in sorted_competitions reversed %}
+  {{ competition.output }}
+{% endfor %}
+</ul>

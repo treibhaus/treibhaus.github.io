@@ -1,6 +1,6 @@
 ---
 layout: main
-title: TH Land BERLIN &amp; HAMBURG
+title: TH Land BERLIN & HAMBURG
 ---
 <div class="rslides_container">
   <ul class="rslides" id="slider">
@@ -47,54 +47,8 @@ title: TH Land BERLIN &amp; HAMBURG
   <div id="toggle_action5">
     <div id="up"></div>
     <p id="show_label5" class="iconicfill-arrow-down">
-      Watch our projects here …
+      <a href="/projects.html">Watch our projects here …</a>
     </p>
-    <p id="hide_label5" class="iconicfill-x">
-      close projects
-    </p>
-  </div>
-  <div id="toggle_container5" style="display:none;">
-    <p>
-      <a href="#2009">2009</a>&nbsp;/&nbsp;<a href="#2011">2011</a>
-    </p><br>
-    <p>
-      Senatsverwaltung für Stadtentwicklung Berlin<br>
-      Bezirksamt Friedrichshain-Kreuzberg Berlin<br>
-      Stadtplanungs- und Tiefbauamt Leipzig<br>
-      Stadtplanungsamt Bern<br>
-    </p>
-    <p>
-      Wettbewerb 2. Platz / Honorarzone / erbrachte Leistungen / Bauzeit /Planungszeit
-    </p>
-    <p>
-      Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund!« sagte er, es war, als sollte die Scham ihn überleben. Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt. Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten, als am Ziele ihrer Fahrt die Tochter als erste sich erhob und ihren jungen Körper dehnte.
-    </p>
-    <p>
-      <img src="asset/image/bg2.jpg" width="100%;">Lalalala, Berlin 2014<br>
-      <a href="./data/.pdf" class="iconicfill-download">download project</a>
-    </p><br>
-    <p id="2011">
-      Projekte 2011<br>
-    </p>
-    <p>
-      Stadt Regensburg<br>
-      Staatliches Bauamt Bayern, Stadt Flossenbürg<br>
-      DSK Deutsche Stadt- und Grundstücksentwicklungsgesellschaft<br>
-      Jugendwohnen im Kiez e.V. Berlin<br>
-      ts/pk Thies Schröder Planungskom.<br>
-      Deutsche Kinder- und Jugendstiftung DKJS
-    </p>
-    <p>
-      <img src="asset/image/bg.jpg" width="100%;">Tütütütü, München 2011
-    </p><br>
-    <p id="2009">
-      Projekte 2009<br>
-    </p>
-    <p>
-      <img src="asset/image/bg1.jpg" width="100%;">Guruguru, München 2009
-    </p><br>
-    <a href="#up" style="text-align:right" class="iconicfill-arrow-up"></a>
-    <div id="show_label5_none" class="iconicfill-x"></div>
   </div>
 </div>
 <div>
@@ -118,23 +72,6 @@ title: TH Land BERLIN &amp; HAMBURG
         Treibhaus begreift sich als Werkstatt, in der im Dialog mit Architekten, Künstlern, Designern und Ingenieuren anderer Fachrichtungen, die gesamte Bandbreite der Landschaftsarchitektur bearbeitet wird. Das Arbeitsspektrum reicht von städtebaulichen Konzepten über Landschaften, Freiräume im urbanen und suburbanen Kontext, bis zu Gärten, temporären Rauminstallationen, Ausstellungen und der Entwicklung von Freiraummobiliar.
       </p><br>
       <div id="show_label2_none" class="iconicfill-x"></div>
-    </div>
-  </div>
-  <div>
-    <div id="toggle_action3">
-      <p id="show_label3" class="iconicfill-arrow-down">
-        Competitions
-      </p>
-      <p id="hide_label3" class="iconicfill-x">
-        close Competitions
-      </p>
-    </div>
-    <div id="toggle_container3" style="display:none;">
-      {% assign sorted_competitions = (site.competitions | sort: 'year') %}
-      {% for competition in sorted_competitions reversed %}
-        {{ competition.output }}
-      {% endfor %}
-      <div id="show_label3_none" class="iconicfill-x"></div>
     </div>
   </div>
   <div>
@@ -169,9 +106,7 @@ title: TH Land BERLIN &amp; HAMBURG
       </div>
       <div id="show_label4_none" class="iconicfill-x"></div>
     </div>
-    <iframe width="100%" height="420" src="http://maps.stamen.com/watercolor/embed#15/52.4931/13.4236"></iframe>
-    <iframe width="100%" height="420" src="http://maps.stamen.com/toner-lines/embed#15/52.4941/13.4261"></iframe>
-    
+
     <script type="text/javascript">
 
       function toggleMe(container, showLabel, hideLabel) {
@@ -196,9 +131,6 @@ title: TH Land BERLIN &amp; HAMBURG
         });
         $('#toggle_action2, #show_label2_none').click(function() {
           toggleMe('#toggle_container2', '#show_label2', '#hide_label2');
-        });
-        $('#toggle_action3, #show_label3_none').click(function() {
-          toggleMe('#toggle_container3', '#show_label3', '#hide_label3');
         });
         $('#toggle_action4, #show_label4_none').click(function() {
           toggleMe('#toggle_container4', '#show_label4', '#hide_label4');
