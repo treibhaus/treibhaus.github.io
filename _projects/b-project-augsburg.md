@@ -2,7 +2,7 @@
 layout: main
 title: Project Augsburg - TH Land BERLIN & HAMBURG
 name: B PROJECT IN AUGSBURG
-thumbnail: http://abbateproductions.com/butterfly-animation-slower.gif
+thumbnail: http://carvalho-bernau.com/2014/wp-content/uploads/Atlas-thumb1.svg
 ---
 
 ### B Project in Augsburg

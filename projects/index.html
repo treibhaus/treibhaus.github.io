@@ -4,8 +4,44 @@ layout: main
 
 <h1>Projects</h1>
 
-<ul>
+<style type="text/css">
+/* Again, you’re free to use and define the classes: */
+.column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of4 { width: 25%; }
+
+@media screen and (max-width: 480px) {
+	#project-grid[data-columns]::before {
+		content: '1 .column.size-1of1';
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#project-grid[data-columns]::before {
+		content: '2 .column.size-1of2';
+	}
+}
+@media screen and (min-width: 769px) {
+	#project-grid[data-columns]::before {
+		content: '4 .column.size-1of4';
+	}
+}
+
+.project {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+</style>
+  
+<div id="project-grid" data-columns>
 {% for project in site.projects %}
-  <li><a href="{{ project.url }}"><img src="{{ project.thumbnail }}">{{ project.name }}</a></li>
+  <div class="project">
+    <a href="{{ project.url }}"><img style="width:100%;" src="{{ project.thumbnail }}"></a>
+    {{ project.name }}
+  </div>
 {% endfor %}
-</ul>
+</div>
+
+<script src="/asset/js/salvattore.min.js"></script>
