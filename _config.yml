@@ -8,6 +8,9 @@ collections:
   cooperations:
     output: false
 
+prose:
+  media: 'asset/image'
+
 defaults:
   -
     scope:
