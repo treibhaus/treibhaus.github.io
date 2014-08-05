@@ -11,6 +11,7 @@ collections:
 prose:
   media: 'asset/image'
   ignore:
+    - README.md
     - index.html
     - _config.yml
     - /_layouts
