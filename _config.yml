@@ -8,6 +8,19 @@ collections:
   cooperations:
     output: false
 
+prose:
+  media: 'asset/image'
+  ignore:
+    - README.md
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /projects
+    - /competitions
+    - /blog
+    - /asset
+
 defaults:
   -
     scope:
