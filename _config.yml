@@ -10,6 +10,15 @@ collections:
 
 prose:
   media: 'asset/image'
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /projects
+    - /competitions
+    - /blog
+    - /asset
 
 defaults:
   -
