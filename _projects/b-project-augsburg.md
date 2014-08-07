@@ -1,18 +1,21 @@
 ---
 layout: project
-name: Project B, Augsburg
+name: "Project B, Augsburg"
 year: 2014
-tags:
+tags: 
   - Masterplan
   - Städtebau
   - Infrastruktur
   - Park
-thumbnail: http://carvalho-bernau.com/2014/wp-content/uploads/wander-thumb-3-500x565.png
+thumbnail: "http://carvalho-bernau.com/2014/wp-content/uploads/wander-thumb-3-500x565.png"
+published: true
 ---
 
 Accus int aut omnitaes demporem estias es dolorem quate plit, explab imagnis cuptaes expel endelitiatia postem et renimil magnatia vero ea et, tem cora pos audani nem facillenem qui commo optia ditiste moluptiis voluptaernam int acepuda ndantibea cus dese consequos eaquia dolum fugit, il estrum re, omnimus aperibus et eos explabo rerunto et officabo. Velit mi, voloriam, voluptatiore velitat emquis moluptiur? Volupta sam venimol uptat.
 
 Os ium volupta tecaese ressin pos modi tores dolo explitium quas doleseque nostiati illorep udigenihitae sim quodicit quo et fugiaerio ere rerunti od qui cum as aut utemporior moditibusae. Nem qui ipsanditas dolor sincillabo. Te volum hillupta cumquam aut elecepe rchitibusam venectiis magnis et asperro tem que evelisi nihita cum fugiae plaborendit quis molorissum haribus ulpa doloruptis intem velenihil.
+
+![me-so-selfie.jpg](/asset/image/me-so-selfie.jpg)
 
 Ceperibus vero de nus, cone nobis dolorit volupta quaspe natis ape sunt undentemqui cum cus.
 Ditium ratur audae voluptate doluptate num est que preheni hillupt atemolo rehent qui cus molutem et dipsape conserem fuga. Odit volorum soluptatam is comnimin reseque volupta endunt hillabo rroviti onsequo incius idunto doluptam nus pliquid ea vel most quia dolorro blabore pliquo tes natioris doluptas et porum eatetur?
