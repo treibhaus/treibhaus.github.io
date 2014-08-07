@@ -7,7 +7,7 @@ tags:
   - Städtebau
   - Infrastruktur
   - Park
-thumbnail: "http://carvalho-bernau.com/2014/wp-content/uploads/wander-thumb-3-500x565.png"
+thumbnail: "/asset/image/bg2.jpg"
 published: true
 ---
 
