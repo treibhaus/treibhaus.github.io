@@ -2,6 +2,86 @@
 ::selection { background: rgba(0,255,124,0.5); color: #000; text-shadow: none; }
 
 
+/* NAV */
+header {
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+}
+
+nav {
+  font-size: 0.9em;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  padding: 10px
+}
+
+body { -webkit-animation: bugfix infinite 1s; }
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} }
+
+nav input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+nav label {
+  font-size: 3em;
+  display: none;
+  cursor: pointer;
+  user-select: none;
+  height: 80px;
+  text-align: right;
+}
+
+@media only screen and (max-width : 640px) {
+
+  nav {
+    width: 100%;
+  }
+
+  nav label {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    float: none;
+  }
+
+  nav li {
+    width: 100%;
+    display: block;
+    float: none;
+    padding: 10px
+  }
+
+  /* checked */
+  nav input:checked ~ ul {
+    display: block;
+  }
+
+  nav input:checked ~ label:after {
+    content: "x";
+  }
+
+  nav label:after {
+    content: "\2261";
+  }
+}
+/* NAV END */
+
 body {
 	text-rendering: optimizeLegibility;
     font-size: 1em;

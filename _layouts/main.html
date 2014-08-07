@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/asset/css/main.css" type="text/css">
   <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.53/responsiveslides.min.js"></script>
+  <!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
   <!-- Le fav and touch icons -->
   <link rel="shortcut icon" href="/asset/icon/favicon.ico">
@@ -23,8 +24,10 @@
 <body>
 
   <div id="main" class={{ page.className }}>
-    <a href="/"><img src="/asset/image/TH9.svg" width="10%"></a>
-    {% include nav.html %}
+    <header>
+      <a id="logo" href="/"><img src="/asset/image/TH9.svg" width="80"></a>
+      {% include nav.html %}
+    </header>
     {{ content }}
   </div>
 
