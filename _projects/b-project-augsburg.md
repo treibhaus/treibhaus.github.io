@@ -20,4 +20,6 @@ Os ium volupta tecaese ressin pos modi tores dolo explitium quas doleseque nosti
 Ceperibus vero de nus, cone nobis dolorit volupta quaspe natis ape sunt undentemqui cum cus.
 Ditium ratur audae voluptate doluptate num est que preheni hillupt atemolo rehent qui cus molutem et dipsape conserem fuga. Odit volorum soluptatam is comnimin reseque volupta endunt hillabo rroviti onsequo incius idunto doluptam nus pliquid ea vel most quia dolorro blabore pliquo tes natioris doluptas et porum eatetur?
 
+![Alternative Text](/asset/image/subfolder/bike.jpeg)
+
 Optatet volut officti omnima dolecae volo officat istiam iniendicat et es id es rernati corentem dolorep erumque most istist, atectis ullor acesciant aut aut dolorit asperepe volupta epudam, sunt verum rerum elitatest reperepelles que dolecul luptios inimagnatur? Simagniet, consequi nullorest prae nim liqui sam liquia ipsam eos in et, officium sus velibus eum dolorrum que aut asperferibus es exerum et harciisim que venturi onsequam, qui dipsapiende re, coresec usciet platur as eatur alit assimi, volo es dit et mi, nonsed everoratiur sunt estio maioremped magnate sequibus enis natus, iunt explitemqui optur.
