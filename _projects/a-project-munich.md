@@ -1,13 +1,14 @@
 ---
 layout: project
-name: KQM Kreativquartier, München
+name: "KQM Kreativquartier, München"
 year: 2014
-tags:
+tags: 
   - Masterplan
   - Städtebau
   - Infrastruktur
   - Park
-thumbnail: http://carvalho-bernau.com/2014/wp-content/uploads/wander-thumb-3-500x565.png
+thumbnail: "http://carvalho-bernau.com/2014/wp-content/uploads/wander-thumb-3-500x565.png"
+published: true
 ---
 
 Titel/Ort: KQM Kreativquartier, München
