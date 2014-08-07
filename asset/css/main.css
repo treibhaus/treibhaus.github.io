@@ -200,17 +200,6 @@ a
 	display: inline !important;
 }
 
-.scrollup {
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    bottom: 0px;
-    right: 15px;
-    display: none;
-    text-indent: -9999px;
-    background-color: #000;
-}
-
 /* ==========================================================================
    toggle container 1
    ========================================================================== */
