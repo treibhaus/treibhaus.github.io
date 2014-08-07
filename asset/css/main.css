@@ -9,6 +9,8 @@ header {
 
 #logo {
   float: left;
+  height: 80px;
+  width: 80px;
 }
 
 nav {
@@ -82,14 +84,53 @@ nav label {
 }
 /* NAV END */
 
+/* PROJECT */
+.project {
+  font-size: 0.8em;
+  background-color: rgb(191, 191, 191);
+  padding: 10px 0;
+}
+
+.project h1 {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(221, 222, 220);
+}
+
+.project .main-content {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(221, 222, 220);
+}
+
+ul.tags {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(221, 222, 220);
+  list-style: none;
+  overflow: hidden;
+}
+
+ul.tags li {
+  float: left;
+  padding: 0 10px;
+}
+
+/* END PROJECT */
+
 body {
 	text-rendering: optimizeLegibility;
-    font-size: 1em;
-    line-height: 1.5;
-	background-color: #ccc;
-    color: #555;
+  font-size: 1em;
+  line-height: 1.5;
+	background-color: rgb(165, 166, 166);
+  color: #555;
 	margin: 0;
 	padding: 0;
+}
+
+img {
+  width: 100%;
 }
 
 a:link, a:visited {
