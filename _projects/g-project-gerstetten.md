@@ -1,9 +1,22 @@
-Titel/Ort: ZLB Zentrale Landesbibliothek, Berlin
+---
+layout: project
+name: "KQM Kreativquartier, München"
+year: 2014
+tags: 
+  - Detailentwurf
+  - Städtebau
+  - Infrastruktur
+  - Park
+thumbnail: /asset/image/bg2.jpg
+published: true
+---
+
+Titel/Ort: KQM Kreativquartier, München
 Art: 1. Preis Wettbewerb mit anschließender Rahmenplanung
 Planungszeitraum: 02/2012 - 10/2014
 Dimension: 20ha
-Thema:  Masterplan mit Freiraumkonzept
-Team: Gerko Schröder, Luc Knödler
+Thema: Prozessualer Masterplan mit Freiraumkonzept
+Team: Gerko Schröder, Luc Knödler, DenizDizzyG
 Partner: TELEINTERNETCAFE Architektur und Urbanismus, Argus Verkehrsplanung, Transsolar Energietechnik, Sieker Ingenieurgesellschaft, Lärmkontor
 Auftraggeber: Landeshauptstadt München, Referat für Stadtplanung und Bauordnung
 
