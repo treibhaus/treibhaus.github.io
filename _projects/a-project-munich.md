@@ -3,7 +3,7 @@ layout: project
 name: "KQM Kreativquartier, München"
 year: 2014
 tags: 
-  - Masterplan
+  - Detailentwurf
   - Städtebau
   - Infrastruktur
   - Park
