@@ -2,7 +2,7 @@ Titel/Ort: ZLB Zentrale Landesbibliothek, Berlin
 Art: 1. Preis Wettbewerb mit anschließender Rahmenplanung
 Planungszeitraum: 02/2012 - 10/2014
 Dimension: 20ha
-Thema: Prozessualer Masterplan mit Freiraumkonzept
+Thema:  Masterplan mit Freiraumkonzept
 Team: Gerko Schröder, Luc Knödler
 Partner: TELEINTERNETCAFE Architektur und Urbanismus, Argus Verkehrsplanung, Transsolar Energietechnik, Sieker Ingenieurgesellschaft, Lärmkontor
 Auftraggeber: Landeshauptstadt München, Referat für Stadtplanung und Bauordnung
