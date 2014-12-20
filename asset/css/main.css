@@ -11,16 +11,18 @@ header {
   float: left;
   height: 80px;
   width: 80px;
+  margin-bottom: 20px;
 }
 
 nav {
-  font-size: 0.9em;
+  font-size: 16px;
 }
 
 nav ul {
   float: right;
   list-style: none;
   padding: 0;
+  margin: 0 0 20px 0;
 }
 
 nav li {
@@ -43,62 +45,57 @@ nav label {
   display: none;
   cursor: pointer;
   user-select: none;
-  height: 80px;
+  height: 105px;
   text-align: right;
 }
 
-@media only screen and (max-width : 640px) {
+nav {
+  width: 100%;
+}
 
-  nav {
-    width: 100%;
-  }
+nav label {
+  display: block;
+}
 
-  nav label {
-    display: block;
-  }
+nav ul {
+  display: none;
+  float: left;
+}
 
-  nav ul {
-    display: none;
-    float: none;
-  }
+nav li {
+  padding: 10px 10px 10px 0;
+}
 
-  nav li {
-    width: 100%;
-    display: block;
-    float: none;
-    padding: 10px
-  }
+/* checked */
+nav input:checked ~ ul {
+  display: block;
+}
 
-  /* checked */
-  nav input:checked ~ ul {
-    display: block;
-  }
+nav input:checked ~ label:after {
+  content: "\2715";
+  font-size: 26px;
+}
 
-  nav input:checked ~ label:after {
-    content: "x";
-  }
-
-  nav label:after {
-    content: "\2261";
-  }
+nav label:after {
+  content: "\2261";
 }
 /* NAV END */
 
 /* PROJECT */
-.project {
+.project, .competition {
   font-size: 0.8em;
   background-color: rgb(191, 191, 191);
   padding: 10px 0;
 }
 
-.project h1 {
+.project h1, .competition h1 {
   display: block;
   margin: 20px;
   padding: 20px;
   background-color: rgb(221, 222, 220);
 }
 
-.project .main-content {
+.project .main-content, .competition .main-content {
   margin: 20px;
   padding: 20px;
   background-color: rgb(221, 222, 220);
@@ -123,7 +120,7 @@ body {
 	text-rendering: optimizeLegibility;
   font-size: 1em;
   line-height: 1.5;
-	background-color: rgb(165, 166, 166);
+	background-color: #CCCCCC;
   color: #555;
 	margin: 0;
 	padding: 0;
