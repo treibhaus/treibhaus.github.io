@@ -4,8 +4,12 @@ layout: main
 
 <h1>Blog</h1>
 
-<ul>
+<div class="blog-grid">
 {% for post in site.posts %}
-  <a href="{{ post.url }}">{{ post.title }}</a>
+  <div class="blog" style="overflow:hidden;">
+    <a href="{{ post.url }}"><img style="width:30%;float:left;padding:0 20px 20px 0;" src="{{ post.thumbnail }}"></a>
+    <a href="{{ post.url }}"><h2>{{ post.date | date: "%d.%m.%Y" }} {{ post.title }}</h2></a>
+    <p>{{ post.excerpt|strip_html }}</p>
+  </div>
 {% endfor %}
-</ul>
+</div>

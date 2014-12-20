@@ -5,7 +5,6 @@ year: 2014
 tags:
   - Masterplan
   - Städtebau
-  - Infrastruktur
   - Park
 thumbnail: http://carvalho-bernau.com/2014/wp-content/uploads/wander-thumb-3-500x565.png
 ---

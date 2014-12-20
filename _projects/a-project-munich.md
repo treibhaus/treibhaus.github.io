@@ -5,7 +5,6 @@ year: 2014
 tags: 
   - Detailentwurf
   - Städtebau
-  - Infrastruktur
   - Park
 thumbnail: /asset/image/bg2.jpg
 published: true

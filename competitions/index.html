@@ -35,14 +35,46 @@ layout: main
 }
 
 </style>
+
+<ul>
+  <li><a href="?tag=Masterplan">Masterplan</a></li>
+  <li><a href="?tag=Städtebau">Städtebau</a></li>
+  <li><a href="?tag=Park">Park</a></li>
+  <li><a href="?tag=Infrastruktur">Infrastruktur</a></li>
+</ul>
   
 <div id="competition-grid" data-columns>
 {% for competition in site.competitions %}
-  <div class="competition">
+  <div class="competition" data-tags="{{ competition.tags | join:"," }}">
     <a href="{{ competition.url }}"><img style="width:100%;" src="{{ competition.thumbnail }}"></a>
-    {{ competition.name }}
+    {{ competition.name  }}
   </div>
 {% endfor %}
 </div>
 
+<script>
+(function() {
+// read GET-parameters from URL
+var urlParams = {};
+var match,
+    pl     = /\+/g,  // Regex for replacing addition symbol with a space
+    search = /([^&=]+)=?([^&]*)/g,
+    decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+    query  = window.location.search.substring(1);
+
+while (match = search.exec(query))
+  urlParams[decode(match[1])] = decode(match[2]);
+
+// filter dom-nodes by passed ?tag= GET-parameter
+if (urlParams.tag) {
+  jQuery('.competition').each(function(index, element) {
+    var domNode = jQuery(element);
+    var domNodeData = domNode.data('tags').split(',');
+    if (jQuery.inArray(urlParams.tag, domNodeData) === -1) {
+      domNode.remove();
+    }
+  });
+} 
+})();
+</script>
 <script src="/asset/js/salvattore.min.js"></script>
