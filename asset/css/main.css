@@ -82,28 +82,25 @@ nav label:after {
 /* NAV END */
 
 /* PROJECT */
-.project, .competition {
+.content {
   font-size: 0.8em;
-  background-color: rgb(191, 191, 191);
-  padding: 10px 0;
 }
 
-.project h1, .competition h1 {
+.content h1 {
   display: block;
-  margin: 20px;
   padding: 20px;
   background-color: rgb(221, 222, 220);
 }
 
-.project .main-content, .competition .main-content {
-  margin: 20px;
+.content .main-content {
+  margin-top: 20px;
   padding: 20px;
   background-color: rgb(221, 222, 220);
 }
 
 ul.tags {
-  margin: 20px;
-  padding: 20px;
+  margin-top: 20px;
+  padding: 10px;
   background-color: rgb(221, 222, 220);
   list-style: none;
   overflow: hidden;
