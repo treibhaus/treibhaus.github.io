@@ -11,7 +11,6 @@ thumbnail: /asset/image/bg2.jpg
 published: true
 ---
 
-![das_dynamische_duo.jpg](/asset/image/das_dynamische_duo.jpg)
 Titel/Ort: KQM Kreativquartier, München
 Art: 1. Preis Wettbewerb mit anschließender Rahmenplanung
 Planungszeitraum: 02/2012 - 10/2014
@@ -24,6 +23,8 @@ Auftraggeber: Landeshauptstadt München, Referat für Stadtplanung und Bauordnun
 ![Bild 1](/asset/image/bg1.jpg)
 
 ![Bild 1](/asset/image/bg2.jpg)
+
+![das_dynamische_duo.jpg](/asset/image/das_dynamische_duo.jpg)
 
 Accus int aut omnitaes demporem estias es dolorem quate plit, explab imagnis cuptaes expel endelitiatia postem et renimil magnatia vero ea et, tem cora pos audani nem facillenem qui commo optia ditiste moluptiis voluptaernam int acepuda ndantibea cus dese consequos eaquia dolum fugit, il estrum re, omnimus aperibus et eos explabo rerunto et officabo. Velit mi, voloriam, voluptatiore velitat emquis moluptiur? Volupta sam venimol uptat.
 
