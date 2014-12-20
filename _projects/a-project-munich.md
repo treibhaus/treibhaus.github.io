@@ -11,6 +11,7 @@ thumbnail: /asset/image/bg2.jpg
 published: true
 ---
 
+![das_dynamische_duo.jpg](/asset/image/das_dynamische_duo.jpg)
 Titel/Ort: KQM Kreativquartier, München
 Art: 1. Preis Wettbewerb mit anschließender Rahmenplanung
 Planungszeitraum: 02/2012 - 10/2014
