@@ -10,6 +10,7 @@ thumbnail: /asset/image/bg2.jpg
 published: true
 ---
 
+![ROSA UND DER ROCKER.jpg](/asset/image/ROSA UND DER ROCKER.jpg)
 Titel/Ort: KQM Kreativquartier, München
 Art: 1. Preis Wettbewerb mit anschließender Rahmenplanung
 Planungszeitraum: 02/2012 - 10/2014
