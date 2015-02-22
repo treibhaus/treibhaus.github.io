@@ -55,112 +55,26 @@ title: TH Land BERLIN & HAMBURG
   <p>
     Yes please, get in touch: <strong><a href="mailto:contact@thland.de" title="It’s that easy.">contact@thland.de</a></strong>, <span class="nowrap"><strong>+49 123 456 789</strong>.</span>
   </p>
-  <div>
-    <div id="toggle_action2">
-      <p id="show_label2" class="iconicfill-arrow-down">
-        About us
-      </p>
-      <p id="hide_label2" class="iconicfill-x">
-        close About us
-      </p>
-    </div>
-    <div id="toggle_container2" style="display:none;">
-      <p>
-        Das Büro Treibhaus wurde 2004 von <strong>Jan Bunge</strong>, <strong>Deniz Dizici</strong>, <strong>Daniel Stimberg</strong> und <strong>Gerko Schröder</strong> nach dem Gewinn des Lenné-Preises 2003 und des Schinkelpreises 2004 sowie daraus resultierenden ersten Aufträgen in Berlin gegründet. 2005 wurde das Büro um den ehemaligen „Lehrer“ der vier Gründungsmitglieder, Michael Heurich, als Seniorpartner erweitert. Seit 2011 führen Deniz Dizici und Gerko Schröder als aktive Partner das Büro. 2012 wurde neben dem Büro in Berlin ein Standort in Hamburg eröffnet.
-      </p><br>
-      <p>
-        Treibhaus begreift sich als Werkstatt, in der im Dialog mit Architekten, Künstlern, Designern und Ingenieuren anderer Fachrichtungen, die gesamte Bandbreite der Landschaftsarchitektur bearbeitet wird. Das Arbeitsspektrum reicht von städtebaulichen Konzepten über Landschaften, Freiräume im urbanen und suburbanen Kontext, bis zu Gärten, temporären Rauminstallationen, Ausstellungen und der Entwicklung von Freiraummobiliar.
-      </p><br>
-      <div id="show_label2_none" class="iconicfill-x"></div>
-    </div>
-  </div>
-  <div>
-    <div id="toggle_action4">
-      <p id="show_label4" class="iconicfill-arrow-down">
-        Contact form
-      </p>
-      <p id="hide_label4" class="iconicfill-x">
-        close Contact form
-      </p>
-    </div>
-    <div id="toggle_container4" style="display:none;">
-      <p>
-        Contact form
-      </p>
-      <div class="contact-us container">
-        <div class="contact-form">
-          <form method="post" action="assets/sendmail.php">
-            <label for="name" class="nameLabel">Name</label> <input id="name" type="text" name="name" placeholder="Enter your name..."> <label for="email" class="emailLabel">Email</label> <input id="email" type="text" name="email" placeholder="Enter your email..."> <label for="subject">Subject</label> <input id="subject" type="text" name="subject" placeholder="Your subject..."> <label for="message" class="messageLabel">Message</label> 
-            <textarea id="message" name="message" placeholder="Your message..."></textarea>
-            <button type="submit">Send</button>
-          </form>
-          <div>
-            <p>
-              Address<br>
-              Kottbusser Damm 74<br>
-              10000 Berlin<br>
-              Phone: +49 123 456 789
-            </p>
-          </div>
-        </div>
-      </div>
-      <div id="show_label4_none" class="iconicfill-x"></div>
-    </div>
-
-    <script type="text/javascript">
-
-      function toggleMe(container, showLabel, hideLabel) {
-        $(container).slideToggle({
-          duration: 350,
-          easing: 'swing',
-          complete: function() {
-            if ($(container).css('display') === 'block') {
-              $(hideLabel).show();
-              $(showLabel).hide();
-            } else {
-              $(hideLabel).hide();
-              $(showLabel).show();
-            }
-          }
-        });
-      }
-
-      $(document).ready(function(){
-        $('#toggle_action1, #show_label1_none').click(function() {
-          toggleMe('#toggle_container1', '#show_label1', '#hide_label1');
-        });
-        $('#toggle_action2, #show_label2_none').click(function() {
-          toggleMe('#toggle_container2', '#show_label2', '#hide_label2');
-        });
-        $('#toggle_action4, #show_label4_none').click(function() {
-          toggleMe('#toggle_container4', '#show_label4', '#hide_label4');
-        });
-        $('#toggle_action5, #show_label5_none').click(function() {
-          toggleMe('#toggle_container5', '#show_label5', '#hide_label5');
-        });
-      });
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $(".rslides").responsiveSlides({
-          auto: true,             // Boolean: Animate automatically, true or false
-          speed: 1000,            // Integer: Speed of the transition, in milliseconds
-          timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
-          pager: false,           // Boolean: Show pager, true or false
-          nav: false,             // Boolean: Show navigation, true or false
-          random: false,          // Boolean: Randomize the order of the slides, true or false
-          pause: false,           // Boolean: Pause on hover, true or false
-          pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-          prevText: "Previous",   // String: Text for the "previous" button
-          nextText: "Next",       // String: Text for the "next" button
-          maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
-          navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
-          manualControls: "",     // Selector: Declare custom pager navigation
-          namespace: "rslides",   // String: Change the default namespace used
-          before: function(){},   // Function: Before callback
-          after: function(){}     // Function: After callback
-        });
-    });
-    </script>
-  </div>
 </div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".rslides").responsiveSlides({
+      auto: true,             // Boolean: Animate automatically, true or false
+      speed: 1000,            // Integer: Speed of the transition, in milliseconds
+      timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+      pager: false,           // Boolean: Show pager, true or false
+      nav: false,             // Boolean: Show navigation, true or false
+      random: false,          // Boolean: Randomize the order of the slides, true or false
+      pause: false,           // Boolean: Pause on hover, true or false
+      pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+      prevText: "Previous",   // String: Text for the "previous" button
+      nextText: "Next",       // String: Text for the "next" button
+      maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+      navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+      manualControls: "",     // Selector: Declare custom pager navigation
+      namespace: "rslides",   // String: Change the default namespace used
+      before: function(){},   // Function: Before callback
+      after: function(){}     // Function: After callback
+    });
+});
+</script>
