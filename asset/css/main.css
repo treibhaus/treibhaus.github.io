@@ -1,6 +1,29 @@
 ::-moz-selection { background: rgba(0,255,124,0.5); color: 000; text-shadow: none; }
 ::selection { background: rgba(0,255,124,0.5); color: #000; text-shadow: none; }
 
+@font-face {
+  font-family: 'TH Font Web';
+  src: url('../font/th-regular-web.eot');
+  src: url('../font/th-regular-web.eot?#iefix') format('embedded-opentype'),
+     url('../font/th-regular-web.woff') format('woff'),
+     url('../font/th-regular-web.ttf') format('truetype'),
+     url('../font/th-regular-web.svg#th-regular') format('svg');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'TH Font Web';
+  src: url('../font/th-medium-web.eot');
+  src: url('../font/th-medium-web.eot?#iefix') format('embedded-opentype'),
+     url('../font/th-medium-web.woff') format('woff'),
+     url('../font/th-medium-web.ttf') format('truetype'),
+     url('../font/th-medium-web.svg#th-medium') format('svg');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
 
 /* NAV */
 header {
@@ -114,6 +137,10 @@ ul.tags li {
 /* END PROJECT */
 
 body {
+  font-family: 'TH Font Web', "Vera Sans Mono", "Panic Sans", Consolas, "Andale Mono", Courier, monospace;
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
 	text-rendering: optimizeLegibility;
   font-size: 1em;
   line-height: 1.5;
@@ -155,43 +182,14 @@ a:hover {
 p, h1, h2 { 
 	font-size:1em;
 	margin: 0;
-	font-family: "Vera Sans Mono", "Panic Sans", Consolas, "Andale Mono", Courier, monospace;
-	padding: 0.5em 0;
-	font-weight: 300;
+  padding: 0.5em 0;
+}
+
+h1, h2, strong {
+	font-family: 'TH Font Web', "Vera Sans Mono", "Panic Sans", Consolas, "Andale Mono", Courier, monospace;
+  font-weight: 500;
 	font-style: normal;
 	font-stretch: normal;
-}
-
-h1, h2, strong, #wow {
-	font-family: "Vera Sans Mono", "Panic Sans", Consolas, "Andale Mono", Courier, monospace;
-    font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-}
-
-/* iconicfill */
-[class*="iconicfill-x"]:before {
-  font-family: 'iconicfill', sans-serif;
-}
-
-[class*="iconicfill-arrow-up"]:before {
-  font-family: 'iconicfill', sans-serif;
-}
-
-[class*="iconicfill-arrow-down"]:before {
-  font-family: 'iconicfill', sans-serif;
-}
-
-[class*="iconicfill-download"]:before {
-  font-family: 'iconicfill', sans-serif;
-}
-
-.iconicfill-x {
-  display: inline-block;
-}
-
-.iconicfill-arrow-up {
-  display: inline-block;
 }
 
 .nowrap {white-space: nowrap;}
@@ -578,13 +576,9 @@ a
   width: 100%;
   padding: 0;
   margin: 0;
-    font-size :0.5em;
-    line-height: 2.6em;
-	font-family: "Vera Sans Mono", "Panic Sans", Consolas, "Andale Mono", Courier, monospace;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-  }
+  font-size :0.5em;
+  line-height: 2.6em;
+}
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -593,13 +587,13 @@ a
   width: 100%;
   left: 0;
   top: 0;
-  }
+}
 
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
-  }
+}
 
 .rslides img {
   display: block;
@@ -607,9 +601,7 @@ a
   float: left;
   width: 100%;
   border: 0;
-  }
-
-
+}
 
 /********** ----- CONTACT PAGE ----- **********/
 
@@ -641,17 +633,16 @@ a
 }
 
 .contact-us form input, .contact-us form textarea {
-    width: 100%;
-    height: 24px;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-	font-family: "Vera Sans Mono", "Panic Sans", Consolas, "Andale Mono", Courier, monospace;
-    color: #888;
-    font-size: 13px;
+  width: 100%;
+  height: 24px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #888;
+  font-size: 13px;
 }
 
 .contact-us form input:focus, .contact-us form textarea:focus {
@@ -671,7 +662,6 @@ a
     margin-top: 15px;
     background: yellow;
     border: 0;
-	font-family: "Vera Sans Mono", "Panic Sans", Consolas, "Andale Mono", Courier, monospace;
     font-size: 13px;
     border-left: 1px;
 	border-right: 1px;
