@@ -204,7 +204,7 @@ footer {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-size :0.5em;
+  font-size : 65%;
   line-height: 2.6em;
 }
 
@@ -235,4 +235,17 @@ ul.link-list {
   list-style: none;
   padding: 0;
   margin: 0 0 20px 0;
+}
+
+ul.link-list li {
+  margin-bottom: 1em;
+}
+
+.column-layout {
+  -webkit-columns: 300px 3;
+  -moz-columns: 300px 3;
+  columns: 300px 3;
+  -webkit-column-gap: 3em;
+  -moz-column-gap: 3em;
+  column-gap: 3em;
 }
