@@ -142,8 +142,8 @@ body {
   font-style:   normal;
   font-stretch: normal;
   text-rendering: optimizeLegibility;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.6em;
   background-color: #CCCCCC;
   color: #555;
   margin: 0;
@@ -180,7 +180,6 @@ a:hover {
 }
 
 p, h1, h2 { 
-  font-size:1em;
   margin: 0;
   padding: 0.5em 0;
 }
@@ -205,12 +204,7 @@ h1, h2, strong {
 
 footer {
   margin-top:40px;
-  bottom: 1em;
-  left: 5%;
-  max-width: 95%;
-  color:#555;
-  font-size: 40%;
-  line-height: 120%;
+  font-size: 65%;
 }
 
 .rslides {
