@@ -28,34 +28,36 @@
 /* NAV */
 header {
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 #logo {
   float: left;
   height: 80px;
   width: 80px;
-  margin-bottom: 20px;
 }
 
 nav {
-  font-size: 16px;
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+
+nav a.active {
+  text-decoration: underline;
 }
 
 nav ul {
   float: right;
   list-style: none;
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 
 nav li {
   display: inline-block;
   float: left;
-  padding: 10px
+  padding-left: 20px;
 }
-
-body { -webkit-animation: bugfix infinite 1s; }
-@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} }
 
 a {
   color: #555;
@@ -66,21 +68,6 @@ a:hover {
   text-decoration: underline;
 }
 
-nav input[type=checkbox] {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
-
-nav label {
-  font-size: 3em;
-  display: none;
-  cursor: pointer;
-  user-select: none;
-  height: 105px;
-  text-align: right;
-}
-
 nav {
   width: 100%;
 }
@@ -89,28 +76,6 @@ nav label {
   display: block;
 }
 
-nav ul {
-  display: none;
-  float: left;
-}
-
-nav li {
-  padding: 10px 10px 10px 0;
-}
-
-/* checked */
-nav input:checked ~ ul {
-  display: block;
-}
-
-nav input:checked ~ label:after {
-  content: "\2715";
-  font-size: 26px;
-}
-
-nav label:after {
-  content: "\2261";
-}
 /* NAV END */
 
 /* PROJECT */
@@ -131,16 +96,18 @@ nav label:after {
 }
 
 ul.tags {
-  margin-top: 20px;
-  padding: 10px;
-  background-color: rgb(221, 222, 220);
+  clear: both;
+  margin: 0;
+  padding: 0;
   list-style: none;
   overflow: hidden;
 }
 
 ul.tags li {
   float: left;
-  padding: 0 10px;
+  padding: 10px 15px;
+  background-color: rgb(221, 222, 220);
+  margin-right: 20px;
 }
 
 hr {
@@ -157,7 +124,7 @@ body {
   font-style:   normal;
   font-stretch: normal;
   text-rendering: optimizeLegibility;
-  font-size: 1.1em;
+  font-size: 16px;
   line-height: 1.6em;
   background-color: #CCCCCC;
   color: #555;
@@ -186,15 +153,15 @@ h1, h2, strong {
 }
 
 #main {
-  float:left;
-  clear:both;
-  margin: 1.5em 5% 3em 5%;
-  width: 90%;
+  padding: 25px 25px 0 25px;
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 footer {
   margin-top:40px;
   font-size: 65%;
+  clear: both;
 }
 
 .rslides {

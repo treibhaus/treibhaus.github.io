@@ -1,13 +1,14 @@
 ---
 layout: project
 name: "Project B, Augsburg"
-year: 2014
+date: 12 / 2013
+location: Berlin - Tempelhof-Schöneberg
 tags: 
   - Masterplan
   - Städtebau
   - Infrastruktur
   - Park
-thumbnail: "http://carvalho-bernau.com/2014/wp-content/uploads/wander-thumb-3-500x565.png"
+thumbnail: /asset/image/thumbnail/projekt2.png
 published: true
 ---
 

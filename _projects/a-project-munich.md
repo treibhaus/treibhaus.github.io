@@ -1,12 +1,13 @@
 ---
 layout: project
 name: "KQM Kreativquartier, München"
-year: 2014
+location: "Hamburg (D)"
+date: 06-09 / 2014
 tags: 
   - Detailentwurf
   - Städtebau
   - Park
-thumbnail: /asset/image/bg2.jpg
+thumbnail: /asset/image/thumbnail/projekt1.png
 published: true
 ---
 

@@ -5,7 +5,7 @@ year: 2014
 tags:
   - Infrastruktur
   - Park
-thumbnail: http://carvalho-bernau.com/2014/wp-content/uploads/wander-thumb-3-500x565.png
+thumbnail: /asset/image/thumbnail/projekt2.png
 ---
 
 Accus int aut omnitaes demporem estias es dolorem quate plit, explab imagnis cuptaes expel endelitiatia postem et renimil magnatia vero ea et, tem cora pos audani nem facillenem qui commo optia ditiste moluptiis voluptaernam int acepuda ndantibea cus dese consequos eaquia dolum fugit, il estrum re, omnimus aperibus et eos explabo rerunto et officabo. Velit mi, voloriam, voluptatiore velitat emquis moluptiur? Volupta sam venimol uptat.

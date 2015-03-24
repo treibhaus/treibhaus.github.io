@@ -6,7 +6,7 @@ tags:
   - Detailentwurf
   - Städtebau
   - Park
-thumbnail: /asset/image/bg2.jpg
+thumbnail: /asset/image/thumbnail/projekt3.png
 published: true
 ---
 
